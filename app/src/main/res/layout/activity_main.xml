@@ -1,0 +1,44 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/TextInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="132dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Это активити A"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/TextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="293dp"
+        android:text=""
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/ActivityB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="429dp"
+        android:onClick="onClickB"
+        android:text="Активити B" />
+
+    <Button
+        android:id="@+id/ActivityC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="236dp"
+        android:layout_y="429dp"
+        android:onClick="onClickC"
+        android:text="Активити C" />
+
+</AbsoluteLayout>
